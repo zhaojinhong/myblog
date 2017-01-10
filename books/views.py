@@ -2,7 +2,7 @@
 # @Author: zhaojinhong
 # @Date:   2016-12-14 10:25:36
 # @Last Modified by:   zhaojinhong
-# @Last Modified time: 2017-01-06 18:33:20
+# @Last Modified time: 2017-01-09 15:18:09
 from django.shortcuts import render,reverse   ##导入reverse
 from django.http import HttpResponse,HttpResponseRedirect
 from models import BlogModel,UserModel

@@ -38,6 +38,16 @@
 						<td><input type="submit" value="注册"></td>
 					</tr>
 
+					<tr>
+						<td>
+							{% autoescape on %}
+								{{errors}}
+							{% endautoescape %}
+
+						</td>
+					</tr>
+
+
 				</form>
 		    </tbody>
  	    </table> 
